@@ -2,18 +2,18 @@ Hospital Management System – Java Project
 A Java-based console application designed to manage hospital operations such as adding doctors, registering patients, booking appointments, canceling appointments, and generating appointment slips.
 This project uses Object-Oriented Programming, Java File Handling (CSV), and Java Time API.
 Features
-✔ Add Doctor
+1) Add Doctor
 Stores doctor details (name, specialization, phone, timing, room) in doctors.csv.
 Register Patient
 Stores patient details (name, gender, age, phone, problem) in patients.csv.
-✔ Book Appointment
+2) Book Appointment
 Select patient → doctor → date → timeslot.
 Prevents slot duplication and saves data in appointments.csv.
-✔ Cancel Appointment
+3) Cancel Appointment
 Shows all appointments and allows cancellation (status updated in CSV).
-✔ View Appointments by Doctor
+4) View Appointments by Doctor
 Displays all appointments booked for a selected doctor.
-✔ Generate Appointment Slip
+5) Generate Appointment Slip
 Shows patient + doctor + date + time + room details in a formatted slip.
 Technologies Used
 Java (Core Programming)
@@ -21,7 +21,7 @@ OOP Concepts (Classes, Objects, Encapsulation)
 Java I/O (File Handling) – CSV storage
 Java Time API – Date and time calculations
 Collections (ArrayList) – Dynamic record storage
-✔ Loading Animation + Logo
+6) Loading Animation + Logo
 Uses UIEffects class for better console experience.
 ├── MedicalSystem.java
 ├── doctors.csv
